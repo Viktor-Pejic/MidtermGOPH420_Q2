@@ -1,0 +1,12 @@
+The answer using dt = 1s for Trapezoid: 334.3304 m/s
+The answer using dt = 1s for Simpson's: 331.3916 m/s
+The answer using 5-point Gauss-Legendre Integration: 330.5099 m/s
+
+The answers are relatively close to each other with Simpson's and Gauss giving
+an answer that are more or less the same. Trapezoid uses linear polynomials
+with a minimum of 2 sample points to integrate and Simpson's uses quadratic
+polynomials with a minimum of 3 sample points. The result we would expect to be
+more accurate is Gauss-legendre as its order of error is h^2n, since we used a 5-point
+polynomial to integrate using this method, we would have an error approximation to the
+order of 10. Compared to Simpson's which has an order of 4 for the multi application
+and order of 2 for multi application Trapezoid integration.
