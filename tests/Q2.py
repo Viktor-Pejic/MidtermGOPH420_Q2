@@ -21,7 +21,7 @@ def simp_result(x1,x2,f1,f2):
 
 def gauss_result():
     def f(x):
-        vf = 9.81*93/47
+        vf = 3.718*93/47
         v0 = 100
         c = 47
         m = 93
@@ -37,7 +37,7 @@ def main():
     x1 = np.linspace(0,20,11)
     x2 = np.linspace(0,20,21)
 
-    vf = 9.81*93/47
+    vf = 3.718*93/47
     v0 = 100
     c = 47
     m = 93
